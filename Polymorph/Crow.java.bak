@@ -1,0 +1,7 @@
+class Crow 
+{
+	public void fly() 
+	{
+		System.out.println("Crow Fly in sky");
+	}
+}

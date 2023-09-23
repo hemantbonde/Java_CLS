@@ -1,0 +1,22 @@
+class B extends A 
+{
+	static int var=10;
+
+	public static void test()
+	{
+		System.out.println("test-A");
+	}
+	 
+	static
+	{
+		System.out.println("SIB-A");
+	}
+
+	public static void main(String[] args) 
+	{
+		System.out.println(B.var);
+		System.out.println(A.var);
+		B.test();
+		A.test();
+	}
+}

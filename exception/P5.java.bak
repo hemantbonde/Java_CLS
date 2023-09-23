@@ -1,0 +1,15 @@
+class P5 
+{   
+	public static void main(String[] args) 
+	{
+		int  a=0;
+		int b=a++;
+		if (a>=0)
+		{
+			int r=a++;
+		}
+		
+		System.out.println(r);
+		main(null);
+	}
+}

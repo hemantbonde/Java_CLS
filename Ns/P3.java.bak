@@ -1,0 +1,19 @@
+class P3 
+{
+	{
+	 a=45;
+	 System.out.println(a);
+	}
+	public void ace()
+	{
+	 int a;
+	}
+
+	public static void main(String[] args) 
+	{
+		System.out.println("Start");
+		P3 obj=new P3();
+		obj.ace();
+		System.out.println("End");
+	}
+}

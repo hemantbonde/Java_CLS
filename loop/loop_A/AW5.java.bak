@@ -1,0 +1,16 @@
+class AW5 
+{
+	public static void main(String[] args) 
+	{
+		char ch='a';
+		int c=ch;
+	    long res=0;
+		do
+		{
+			res=res+c;
+		    c++;
+		}
+		while (c<'f'); 
+		System.out.println(res);
+	}
+}

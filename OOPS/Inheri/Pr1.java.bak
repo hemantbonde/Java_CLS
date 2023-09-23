@@ -1,0 +1,16 @@
+class Pr1 
+{
+	
+	Pr1()
+	{
+	 this();
+     super();
+	 System.out.println("P1(int)");	
+	}
+
+	Pr1()
+	{
+	 System.out.println("P1()");	
+	}
+
+}

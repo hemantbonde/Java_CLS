@@ -1,0 +1,12 @@
+class P4 
+{
+	public static void main(String[] args) 
+	{
+		boolean a=true;
+		boolean b=a++;
+		boolean c=b++;
+		System.out.println(a);
+		System.out.println(b);
+		System.out.println(c);
+	}
+}

@@ -1,0 +1,7 @@
+class A
+{
+	public static void main(String[] args) 
+	{
+     P1 obj=new P1();
+	}
+}

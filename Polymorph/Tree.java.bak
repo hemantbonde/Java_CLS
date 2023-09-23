@@ -1,0 +1,11 @@
+class Tree 
+{
+	public static void main(String[] args) 
+	{
+		Bird c=new Crow();
+		c.fly();
+
+		Crow b=c;
+		b.fly();
+	}
+}

@@ -1,0 +1,7 @@
+class mango1 
+{
+	public void tasty() 
+	{
+		System.out.println("sweet");
+	}
+}

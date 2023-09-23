@@ -1,0 +1,12 @@
+class P2
+{
+	public static void Ac(double r) 
+	{
+		 double a=3.14*r*r;
+		System.out.println("Area of circle having radius"+r+" is "+a"cm2");
+	}
+	public static void main(String[] args) 
+	{
+	Ac(3.65);	
+	}
+}

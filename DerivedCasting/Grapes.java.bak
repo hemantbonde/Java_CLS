@@ -1,0 +1,7 @@
+class Grapes 
+{
+	public  void eat() 
+	{
+		System.out.println("All type of grapes use to eat");
+	}
+}

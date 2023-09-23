@@ -1,0 +1,13 @@
+class P1 
+{
+	P1(int a)
+	{
+	 System.out.println("P1(int)");	
+	}
+
+	P1()
+	{
+	 System.out.println("P1()");	
+	}
+
+}

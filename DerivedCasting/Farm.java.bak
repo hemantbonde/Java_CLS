@@ -1,0 +1,12 @@
+class Farm 
+{
+	public static void main(String[] args) 
+	{
+		Fruit f=new BlackGrapes();
+		f.grow();
+
+		Grapes g=(Grapes) f;
+		g.grow();
+		g.eat();
+	}
+}

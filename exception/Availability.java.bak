@@ -1,0 +1,7 @@
+class  Availability
+{
+  Availability(String s)
+	{
+		super(s);
+	}
+}

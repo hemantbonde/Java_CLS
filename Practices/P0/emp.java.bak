@@ -1,0 +1,29 @@
+class emp 
+{
+	String Ename;
+	int eid;
+	private double esal;
+
+	public double getsal()
+	{
+		return esal;
+	}
+	
+	public void setesal(double sal)
+	{
+		this.esal=sal;
+	}
+
+	emp()
+	{
+			
+	}
+
+	emp(String name,int id,double sal)
+	{
+		this.Ename=name;
+		this.eid=id;
+		this.esal=sal;
+		
+	}
+}
